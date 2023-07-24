@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS Console Game</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+    </style>
+        
 </head>
 <body>
-    
+    <h1 id="title">ROCK PAPER SCISSORS GAME</h1>
+    <h2 id="subtitle">Man Vs. Machine</h2>
+
+    <div class="game-choice">
+        <button id="rock-button" class="choice rock-btn">ROCK</button>
+        <button id="paper-button" class="choice paper-btn">PAPER</button>
+        <button id="scissors-button" class="choice scissors-btn">SCISSORS</button>
+    </div>
+ 
+    <div class="game-output">
+        <p>Computer Selection: </p>
+        <div class="game-results">
+            <p class="round-text">Round: 0</p>
+            <p class="scores">Your Score: 0 ︱ Computer's Score: 0</p>
+            <p class="result-text">We haven't played yet</p>
+        </div>
+    </div>
+
+    <div class="game-end">
+        <p class="finish"></p>
+        <button class="play-again">PLAY AGAIN</button>
+    </div>
+
+    <footer>
+        <p>Created by Danny Bao</p>
+    </footer>
 </body>
 </html>

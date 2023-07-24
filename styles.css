@@ -1,0 +1,17 @@
+
+#title, #subtitle {
+    font-family: 'Playfair Display', serif;
+}
+
+#subtitle {
+    font-weight: lighter;
+}
+
+.rock-button, .paper-button, .scissors-button {
+    padding: 15px;
+    margin: 15px;
+}
+
+.play-again {
+    visibility: hidden;
+}
